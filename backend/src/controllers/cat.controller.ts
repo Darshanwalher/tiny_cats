@@ -134,8 +134,7 @@ export const recommendCatsController = async (
         ) {
             return res.status(400).json({
                 success: false,
-                message:
-                    "kidsFriendly and apartmentFriendly must be boolean values.",
+                message:"kidsFriendly and apartmentFriendly must be boolean values.",
             });
         }
 
