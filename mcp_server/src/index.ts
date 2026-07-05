@@ -56,4 +56,4 @@ server.registerTool(
 const transport = new StdioServerTransport();
 await server.connect(transport);
 
-console.log("tiny cats mcp server is running...");
+console.error("tiny cats mcp server is running...");
